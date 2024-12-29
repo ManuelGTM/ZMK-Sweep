@@ -27,8 +27,12 @@
         };
     };
 
-    combos{
+    combos {
         #include "combos.dtsi"
+    };
+
+    macros {
+        #include "macros.dtsi"
     };
 
 
