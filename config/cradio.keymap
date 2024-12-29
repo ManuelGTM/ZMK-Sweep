@@ -28,7 +28,7 @@
     };
 
     combos{
-        #include "combos.dtsi"
+        #include "combos.dtsi";
     }
 
 
