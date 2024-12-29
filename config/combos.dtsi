@@ -19,7 +19,7 @@ compatible = "zmk,combos";
 			        ╰────────╯ ╰────────╯			   */
 
 
-//   |key    |   |action|      |pos| 
+// |key    |   |action|      |pos| 
 COMBO(esc,       &kp ESC,      0 1 )    
 COMBO(caps,      &kp CAPS,     2 3)    
 COMBO(tab,       &kp TAB,      10 11)   
@@ -28,5 +28,6 @@ COMBO(copy,      &kp LC(C),     23 24)
 COMBO(paste,     &kp LC(V),     22 23)  
 COMBO(cut,       &kp LC(X),     21 22) 
 COMBO(undo,      &kp LC(Z),     20 21)
+COMBO(games,     &tog GAMES,     28 29)
 
 
