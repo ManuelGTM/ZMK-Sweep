@@ -20,7 +20,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <220>;
+            tapping-term-ms = <180>;
             quick-tap-ms = <150>;
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
@@ -50,7 +50,7 @@
         //│  X       │  Q       │  M       │  W        │  Z      │   │  K       │  M       │ , <      │ . >      │ / ?      │
             &kp X      &kp Q      &kp M      &kp W      &kp Z          &kp K      &kp P      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┴─────────┼─────────── ┼─────────┤  ├─────────────────────┼──────────┴──────────┴──────────╯
-                                           &lt NAV DEL  &kp ENTER     &kp SPACE    &lt SYM BSPC
+                                           &lt NAV DEL  &key_repeat    &kp SPACE    &lt SYM BSPC
         //                                ╰────────────┴──────────╯  ╰────────────┴────────────────╯
             >;
         };
@@ -59,7 +59,7 @@
             bindings = <
         //╭────────── ┬─────────  ─┬────────   ─┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT    │            │            │          │          │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
-           &kp K_PREV  &kp K_VOL_DN &kp K_VOL_UP &kp K_NEXT  &kp K_PP       &Scope    &kp PG_UP   &kp UP    &kp PG_DN   &kp END  
+           &kp K_PREV  &kp K_VOL_DN &kp K_VOL_UP &kp K_NEXT  &kp K_PP       &trans   &kp PG_UP   &kp UP    &kp PG_DN   &kp END  
         //├────────── ┼───────  ───┼───────   ──┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ 1         │  2         │  3         │  4       │  5       │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ENT     │
             &kp N1     &kp N2        &kp N3      &kp N4     &kp N5          &trans    &kp LEFT    &kp DOWN   &kp RIGHT  &kp RET
