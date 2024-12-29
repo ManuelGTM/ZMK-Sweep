@@ -6,11 +6,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include "34keys.h"
 
-// Layers
-#define BASE 0
-#define NAV 1
-#define SYM 2
-
 / {
     behaviors {
         ht: hold_tap {
