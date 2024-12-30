@@ -20,9 +20,9 @@ compatible = "zmk,combos";
 
 
 // key    |      action|      |pos| 
-COMBO(esc,       &kp ESC,      0 1,      0 )    
+COMBO(esc,       &kp ESC,      1 2,      0 )    
 COMBO(caps,      &kp CAPS,     2 3,      0 )    
-COMBO(tab,       &kp TAB,      10 11,    0 )   
+COMBO(tab,       &kp TAB,    10 11,    0 )   
 COMBO(ent,       &kp RET,       16 17 18, 0) 
 
 COMBO(copy,      &kp LC(C),     23 24,    0)   
