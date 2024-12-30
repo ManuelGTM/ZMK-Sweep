@@ -5,7 +5,8 @@
 #define BASE 0
 #define NAV 1
 #define SYM 2
-#define GAMES 3
+#define TRI 3
+#define GAMES 4
 
 // Home row mods macro
 #define HRML(k1, k2, k3, k4) &ht LGUI k1 &ht LALT k2 &ht LCTRL k3 &ht LSHFT k4
