@@ -52,7 +52,7 @@
             bindings = <
         //╭────────── ┬─────────  ─┬────────   ─┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT    │            │            │          │          │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
-           &kp K_PREV  &kp K_VOL_DN &kp K_VOL_UP &kp K_NEXT  &kp K_PP       &trans   &kp PG_UP   &kp UP    &kp PG_DN   &kp END  
+           &kp C_PREV  &kp C_VOL_DN &kp C_VOL_UP &kp C_NEXT  &kp C_PP       &trans   &kp PG_UP   &kp UP    &kp PG_DN   &kp END  
         //├────────── ┼───────  ───┼───────   ──┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ 1         │  2         │  3         │  4       │  5       │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ENT     │
             &kp N1     &kp N2        &kp N3      &kp N4     &kp N5          &trans    &kp LEFT    &kp DOWN   &kp RIGHT  &kp RET

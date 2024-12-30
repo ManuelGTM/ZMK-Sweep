@@ -25,8 +25,8 @@ COMBO(caps,      &kp CAPS,     2 3,      0 )
 COMBO(tab,       &kp TAB,    10 11,    0 )   
 COMBO(ent,       &kp RET,       16 17 18, 0) 
 
-COMBO(copy,      &kp LC(C),     23 24,    0)   
-COMBO(paste,     &kp LC(V),     22 23,    0)  
+COMBO(copy,      &kp LC(C),     22 23,    0)   
+COMBO(paste,     &kp LC(V),     23 24,    0)  
 COMBO(cut,       &kp LC(X),     21 22,    0) 
 COMBO(undo,      &kp LC(Z),     20 21,    0)
 
