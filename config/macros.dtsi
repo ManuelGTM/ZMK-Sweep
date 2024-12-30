@@ -18,5 +18,5 @@ MACRO(Scope, &kp COLON &kp COLON)
 MACRO(Email, EMAIL_BINDINGS) 
 
 MACRO(Dollar_Bracks, &kp DLLR &kp LBRC &kp RBRC &kp LEFT)
-MACRO(Screen, &kp LGUI &kp LSHFT &kp S)
+// MACRO(Screen, &kp LGUI &kp LSHFT &kp S)
 
