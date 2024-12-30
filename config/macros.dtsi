@@ -1,7 +1,7 @@
 /* Macro macro: */
 #define str(s) #s
 #define MACRO(NAME, BINDINGS) \
-  macro_##NAME: macro_##NAME { \
+  mc_##NAME: macro_##NAME { \
 	  compatible = "zmk,behavior-macro"; \
 	  label = str(macro_##NAME); \
 	  #binding-cells = <0>; \
@@ -16,5 +16,7 @@
 MACRO(Arrow, &kp MINUS &kp GT)
 MACRO(Scope, &kp COLON &kp COLON)
 MACRO(Email, EMAIL_BINDINGS) 
+
 MACRO(Dollar_Bracks, &kp DLLR &kp LBRC &kp RBRC &kp LEFT)
+MACRO(Screen, &kp LGUI &kp LSHFT &kp S)
 
