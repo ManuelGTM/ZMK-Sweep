@@ -1,7 +1,7 @@
 if SHIELD_CRADIO_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "Ferris Sweep"
+    default "MT Sweep"
 
 config ZMK_SPLIT
     default y
