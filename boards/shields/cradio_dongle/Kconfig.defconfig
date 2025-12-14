@@ -1,7 +1,10 @@
 if SHIELD_CRADIO_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "MT Sweep"
+    default "Ferris Sweep"
+
+config ZMK_SPLIT
+    default y
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -15,7 +18,7 @@ config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
 endif
 
 
-if SHIELD_CRADIO_LEFT || SHIELD_CRADIO_RIGHT || SHIELD_CRADIO_DONGLE
+if SHIELD_CRADIO_LEFT || SHIELD_CRADIO_RIGHT
 
 config ZMK_SPLIT
     default y
