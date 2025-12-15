@@ -1,9 +1,17 @@
+---
 include:
+  # Dongle (central + USB)
   - board: nice_nano
     shield: cradio_dongle
 
+  # Left half
   - board: nice_nano
     shield: cradio_left
 
+  # Right half
   - board: nice_nano
     shield: cradio_right
+
+  # Reset firmware (opcional pero recomendado)
+  - board: nice_nano
+    shield: settings_reset
