@@ -17,6 +17,8 @@ MACRO(Arrow, &kp MINUS &kp GT)
 MACRO(Scope, &kp COLON &kp COLON)
 MACRO(Email, EMAIL_BINDINGS) 
 
+MACRO(Select_Word_Left, &kp LCTRL &kp LSHFT &kp LEFT)
+
 MACRO(Dollar_Bracks, &kp DLLR &kp LBRC &kp RBRC &kp LEFT)
-// MACRO(Screen, &kp LGUI &kp LSHFT &kp S)
+//MACRO(Screen, &kp LGUI &kp LSHFT &kp S)
 

@@ -24,6 +24,7 @@ COMBO(esc,       &kp ESC,      1 2,      0 )
 COMBO(caps,      &kp CAPS,     2 3,      0 )    
 COMBO(tab,       &kp TAB,    10 11,    0 )   
 COMBO(ent,       &kp RET,       16 17 18, 0) 
+COMBO(select_word_left, &mc_Select_Word_Left, 21 22 23, 0)
 
 COMBO(copy,      &kp LC(C),     22 23,    0)   
 COMBO(paste,     &kp LC(V),     23 24,    0)  
@@ -34,7 +35,6 @@ COMBO(games,     &tog GAMES,    28 29,    0)
 
 COMBO(colon,     &kp COLON,     27 28,    0)
 COMBO(music,     &kp C_AL_AUDIO_BROWSER , 2 3,  1)
-
 
 COMBO(scroll_up,   &msc(SCRL_UP),    6 7 8, 1)
 COMBO(scroll_down, &msc(SCRL_DOWN),  26 27 28, 1)
