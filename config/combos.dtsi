@@ -1,0 +1,37 @@
+
+compatible = "zmk,combos";
+
+#define COMBO(NAME, BINDINGS, KEYPOS, LAYER) \
+  combo_##NAME { \
+    timeout-ms = <50>; \
+    bindings = <BINDINGS>; \
+    key-positions = <KEYPOS>; \
+    layers = <LAYER>; \
+  };
+
+//				        KEY POSITIONS
+/*
+  ╭────────────────────╮ ╭────────────────────╮
+  │ 0	  1	  2   3	  4  │ │ 5	 6	 7	 8	 9  │
+  │ 10	11	12	13	14 │ │ 15  16  17  18  19 │
+  │ 20	21	22	23	24 │ │ 25  26  27  28  29 │
+  ╰───────────╮ 30	31 │ │ 32  33 ╭───────────╯
+			        ╰────────╯ ╰────────╯			   */
+
+
+// key    |      action|      |pos| 
+COMBO(esc,       &kp ESC,      1 2,      0 )    
+COMBO(caps,      &kp CAPS,     2 3,      0 )    
+COMBO(tab,       &kp TAB,    10 11,    0 )   
+COMBO(ent,       &kp RET,       16 17 18, 0) 
+
+COMBO(copy,      &kp LC(C),     22 23,    0)   
+COMBO(paste,     &kp LC(V),     23 24,    0)  
+COMBO(cut,       &kp LC(X),     21 22,    0) 
+COMBO(undo,      &kp LC(Z),     20 21,    0)
+
+COMBO(games,     &tog GAMES,    28 29,    0)
+
+COMBO(colon,     &kp COLON,     27 28,    0)
+COMBO(music,     &kp C_AL_AUDIO_BROWSER , 2 3,  1)
+
