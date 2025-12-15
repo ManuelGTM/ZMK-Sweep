@@ -7,3 +7,23 @@ ht: hold_tap {
     require-prior-idle-ms = <100>;
     bindings = <&kp>, <&kp>;
 };
+
+nav_lt: nav_lt {
+    compatible = "zmk,behavior-hold-tap";
+    label = "NAV_LT";
+    #binding-cells = <2>;
+    tapping-term-ms = <180>;
+    quick-tap-ms = <120>;
+    flavor = "tap-preferred";
+    bindings = <&mo &kp>;
+};
+
+sym_lt: sym_lt {
+    compatible = "zmk,behavior-hold-tap";
+    label = "SYM_LT";
+    #binding-cells = <2>;
+    tapping-term-ms = <180>;
+    quick-tap-ms = <120>;
+    flavor = "tap-preferred";
+    bindings = <&mo &kp>;
+};

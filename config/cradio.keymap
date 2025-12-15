@@ -43,7 +43,7 @@
         //│  X       │  Q       │  M       │  W        │  Z      │   │  K       │  M       │ , <      │ . >      │ / ?      │
             &kp X      &kp Q      &kp M      &kp W      &kp Z          &kp K      &kp P      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┴─────────┼─────────── ┼─────────┤  ├─────────────────────┼──────────┴──────────┴──────────╯
-                                           &lt NAV DEL  &key_repeat    &kp SPACE    &lt SYM BSPC
+                                       &nav_lt NAV DEL  &key_repeat    &kp SPACE    &sym_lt SYM BSPC
         //                                ╰────────────┴──────────╯  ╰────────────┴────────────────╯
             >;
         };
