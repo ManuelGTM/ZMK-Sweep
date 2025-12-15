@@ -35,3 +35,5 @@ COMBO(games,     &tog GAMES,    28 29,    0)
 COMBO(colon,     &kp COLON,     27 28,    0)
 COMBO(music,     &kp C_AL_AUDIO_BROWSER , 2 3,  1)
 
+COMBO(scroll_up,   &msc SCRL_UP,    6 7 8,     1)
+COMBO(scroll_down, &msc SCRL_DOWN,  26 27 28,  1)
